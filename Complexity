@@ -1,0 +1,27 @@
+Fields:
+Symptom1  Symptom2  Temperature  Air_Quality  Medicine_Prescribed/Used   Temperature   Allergy   
+Heriditical  Phychological_Problem   Narcotic_Comsumption   Deficiency
+
+Options:
+
+  Symptoms:
+           Body_Pain    Cough&Cold    Fever   Headache    Inflamation   Stomach_Ache    Dizziness   Sprain    Respiratory_Problem   
+           Redness_in_Eyes    Dandruff    Muscle_Cramps
+  Temperature:
+            Degrees       <10    10-17   18-24   24-30   30-40   >40
+  Air_Quality:
+            Excelent    Good    Fine    Poor    Bad   Severe  
+  Medicine_Prescribed/Used:
+            AntiHistaAmines   Paracetamol   Diclomo   Benedryl    Nemoslide   Betnovet    Vicks   ColdREF   Vernac    Inflam    
+            Burnol    Phenol    Cresol    Quinone     Benzyl    Dengegi
+  Allergy:
+            Yes   No
+  Heriditial_Issue:
+            Yes   No
+  Phychological_Problem:
+            Yes   No
+  Narcotic_Comsumption:
+            Smoking   Drinking    ChewingTobaco   Vaping
+  Deficiency:
+            Vitamin   A  B   C   D   E    Iron    Iodine    Potassium  
+           
