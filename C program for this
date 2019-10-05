@@ -1,7 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main()
-{   //Creating a array and storing the values into it
+{  //reading a file and entering the elements into a array
+scanf("%s",fname);	
+
+    fptr = fopen(fname, "r");
+    while(fgets(line[i], LSIZ, fptr)) 
+	{
+        line[i][strlen(line[i]) - 1] = '\0';
+        i++;
+    }
+    tot = i;
+	printf("\n The content of the file %s  are : \n",fname);    
+    for(i = 0; i < tot; ++i)
+    {
+        printf(" %s\n", line[i]);    //needs modification
+    }
+
+//Creating a array and storing the values into it
    int i,j,n=3;
    int arr[3][n];
    for(i=0;i<n;i++)
@@ -39,3 +55,6 @@ int flag=0;
     printf("%d",flag);
     return 0;
 }
+
+//accessigntheindexoftheoccuringpattern
+
