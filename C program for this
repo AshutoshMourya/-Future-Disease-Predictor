@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{   //Creating a array and storing the values into it
+   int i,j,n=3;
+   int arr[3][n];
+   for(i=0;i<n;i++)
+        {
+            for(j=0;j<3;j++)
+                {
+                    int m;
+                    scanf("%d",&m);
+                    arr[i][j]=m;
+                }
+        }
+        
+    for(i=0;i<n;i++)
+        {
+            for(j=0;j<3;j++)
+                {
+                    printf("%d \t",arr[i][j]);
+                    
+                }printf("\n");
+        }
+        
+//Getting the data to compare
+int a,b;
+printf("Enter  the Symptom code and Condition code");
+scanf("%d %d",&a,&b);
+
+//Calculating the occurances
+int flag=0;
+   for(i=0;i<n;i++)
+    {
+        if(arr[i][0]==a && arr[i][1]==b)
+        {flag+=1;}
+        
+    }
+    printf("%d",flag);
+    return 0;
+}
