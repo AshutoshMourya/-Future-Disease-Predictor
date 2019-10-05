@@ -1,5 +1,5 @@
 Fields:
-Symptom1  Symptom2  Temperature  Air_Quality  Medicine_Prescribed/Used   Temperature   Allergy   
+Symptom1  Symptom2  Temperature  Air_Quality  Climate   Medicine_Prescribed/Used   Temperature   Allergy   
 Heriditical  Phychological_Problem   Narcotic_Comsumption   Deficiency
 
 Options:
@@ -7,6 +7,8 @@ Options:
   Symptoms:
            Body_Pain    Cough&Cold    Fever   Headache    Inflamation   Stomach_Ache    Dizziness   Sprain    Respiratory_Problem   
            Redness_in_Eyes    Dandruff    Muscle_Cramps
+  Climate:
+           Cold   Pleasant    Warm    Humid   Hot   Rainy   Snowy
   Temperature:
             Degrees       <10    10-17   18-24   24-30   30-40   >40
   Air_Quality:
